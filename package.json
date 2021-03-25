@@ -1,0 +1,27 @@
+{
+    "name": "gallery-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js",
+        "watch": "tsc -p tsconfig.json -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Elzapat/gallery-bot.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Elzapat/gallery-bot/issues"
+    },
+    "homepage": "https://github.com/Elzapat/gallery-bot#readme",
+    "dependencies": {
+        "discord.js": "^12.5.1",
+        "dotenv": "^8.2.0",
+        "typescript": "^4.2.3"
+    }
+}
